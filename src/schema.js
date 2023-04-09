@@ -15,10 +15,13 @@ const typeDefs = gql`
   type WeatherTemp {
     temp: Float
     feelsLike: Float
+    tempMin: Float
+    tempMax: Float
   }
   type WeatherResponse {
     id: String!
     name: String
+    dt: Float
     base: String
     coord: Coordinates
     main: WeatherTemp
