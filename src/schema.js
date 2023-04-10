@@ -22,6 +22,7 @@ const typeDefs = gql`
     id: String!
     name: String
     dt: Float
+    timezone: Float
     base: String
     coord: Coordinates
     main: WeatherTemp
